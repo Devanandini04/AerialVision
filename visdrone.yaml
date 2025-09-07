@@ -1,0 +1,19 @@
+# Full paths to the train/val data
+train: C:/Users/Devanandini/drone-object-detection/VisDrone-YOLO-format/images/train
+val: C:/Users/Devanandini/drone-object-detection/VisDrone-YOLO-format/images/val
+
+# Number of classes
+nc: 10
+
+# Class names
+names:
+  - pedestrian
+  - person
+  - car
+  - van
+  - bus
+  - truck
+  - motor
+  - bicycle
+  - awning-tricycle
+  - tricycle

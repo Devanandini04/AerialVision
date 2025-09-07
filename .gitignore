@@ -1,0 +1,12 @@
+# Ignore the virtual environment folder
+venv/
+
+# Ignore large datasets
+datasets/
+
+# Ignore YOLO run results
+runs/
+
+# Ignore other common files
+__pycache__/
+*.pyc
