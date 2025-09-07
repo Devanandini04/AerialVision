@@ -37,20 +37,9 @@ Bash-
 python app.py
 After running this command, open the provided local URL in your web browser (usually http://127.0.0.1:7860).
 
-Project Structure
-├── datasets/
-│   ├── VisDrone2019-DET-train/
-|   ├── VisDrone2019-DET-test-dev/
-│   └── VisDrone2019-DET-val/
-├── runs/
-├── venv/
-├── AerialVision-YOLO-format/
-├── .gitignore
-├── app.py
-├── best.pt
-├── predict.py
-├── prepare_data.py
-├── README.md
-├── requirements.txt
-└── visdrone.yaml
+![](image.png)
+
 Note: The datasets/ and runs/ folders are not included in the repository due to their large size. You will need to download the VisDrone dataset separately and run the prepare_data.py script to generate the required AerialVision-YOLO-format folder.
+
+UI screenshot
+![](image-1.png)
